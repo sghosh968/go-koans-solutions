@@ -8,6 +8,8 @@ func (cn coolNumber) multiplyByTwo() int {
 
 func aboutTypes() {
 	i := coolNumber(4)
-	assert(i == coolNumber(__int__))     // values can be converted between compatible types
-	assert(i.multiplyByTwo() == __int__) // you can add methods on any type you define
+	assert(i == coolNumber(4))     // values can be converted between compatible types
+	assert(i.multiplyByTwo() == 8) // you can add methods on any type you define
 }
+// NOTE: Read more about naked return and how the execution works here https://tour.golang.org/basics/7
+// TODO check how statement in line #12 works, not sure about it.
